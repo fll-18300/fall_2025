@@ -32,7 +32,9 @@ def mission_seven(r):
     r.robot.straight(-50)
     r.robot.straight(-120)
     r.robot.turn(42)
-    r.lam.run_angle(500,200)
+    r.robot.straight(-740)
+   
+
 ################################
 # KEEP THIS AT THE END OF THE FILE
 # This redirects to running main.
