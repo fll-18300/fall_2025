@@ -21,14 +21,14 @@ def mission_nine(r):
      print("Running Mission 9")
      r.robot.straight(400)
      r.robot.arc(320,90)
-     r.robot.straight(170)
-     r.robot.turn(-90)
+     r.robot.straight(180)
+     r.robot.turn(-85)
      r.robot.straight(-130)
-     r.lam.run_angle(600,180, wait=False)
-     r.ram.run_angle(-600,180)
+     r.lam.run_angle(600,230, wait=False)
+     r.ram.run_angle(-600,230)
      r.robot.straight(95)
-     r.lam.run_angle(-600,80, wait=False)
-     r.ram.run_angle(600,80)
+     r.lam.run_angle(-600,100, wait=False)
+     r.ram.run_angle(600,100)
 
 ################################
 # KEEP THIS AT THE END OF THE FILE
