@@ -28,11 +28,16 @@ def mission_seven(r):
     r.lam.run_angle(300,-40)
     r.robot.straight(50)
     r.ram.run_time(1000,500)
-    r.lam.run_time(400,-100)
-    r.robot.straight(-50)
-    r.robot.straight(-120)
+    r.robot.straight(-150)
     r.robot.turn(42)
-    r.robot.straight(-740)
+    r.lam.run_time(500,-500)
+    r.robot.straight(-20)
+    r.lam.run_time(500,500)
+    r.lam.run_time(-400,300)
+    r.lam.run_time(400,400)
+    r.robot.straight(-400)
+    r.robot.turn(30)
+    r.robot.straight(-400)
    
 
 ################################
