@@ -19,7 +19,9 @@ from pybricks.tools import *
 
 def mission_nine(r):
      print("Running Mission 9")
-     r.robot.straight(355)
+     r.lam.run_time(-20,500, wait=False)
+     r.ram.run_time(20,500)
+     r.robot.straight(375)
      r.robot.arc(320,90)
      r.robot.straight(180)
      r.robot.turn(-85)

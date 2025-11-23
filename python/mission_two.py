@@ -21,22 +21,26 @@ def mission_two(r):
     print("Running Mission 2")
     # Your code goes here...
     r.robot.straight (425)
-    #ITS HAMMER TIME Yippee
+    #ITS HAMMER TIME HORRAY
     r.ram.run_time(400,1000)
     r.ram.run_time(-400,1000)
     r.ram.run_time(400,1000)
     r.ram.run_time(-400,1000)
     r.ram.run_time(400,1000)
     r.ram.run_time(-400,1000)
+    r.ram.run_time(400,1000)
     r.ram.run_time(-400,1000)
+    #rocks   
     r.robot.turn(-45)
     r.robot.straight(300)
     r.robot.turn(100)
     r.robot.straight(78)
     r.robot.straight(-10)
+    #island thingy
     r.robot.turn(-43)
     r.robot.straight(28)
     r.robot.turn(-32)
+    r.robot.straight(-200)
     #r.robot.turn (10)
     #r.robot.drive(200,-100)
     # r.robot.stop()

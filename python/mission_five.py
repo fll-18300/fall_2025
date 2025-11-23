@@ -48,7 +48,7 @@ def mission_five(r):
     #reset the distance counter
     r.robot.reset()
     #drive backwards with a slight curveee
-    r.robot.drive(-201,5)
+    r.robot.drive(-201,-5)
     #keep driving until we hit the distance 
     while abs(r.robot.distance()) < 412:
         pass
@@ -59,7 +59,7 @@ def mission_five(r):
     wait(2500)
     r.robot.stop()
     r.lam.run_time(-800,1567,wait=False)
-    r.robot.straight(-500)
+    r.robot.straight(-800)
     r.robot.settings(500,500, 300, 200)
 
 ################################
