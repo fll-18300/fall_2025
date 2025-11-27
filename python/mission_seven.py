@@ -19,13 +19,17 @@ from pybricks.tools import *
 
 def mission_seven(r):
     print("Running Mission 7")
-    # THIS IS CAMS CODE NO TOUCH
+    # THIS IS CAMS CODE NO TOUCH 
+    # doing brush mission
     r.robot.straight(740)
     r.robot.straight(-160)
     r.robot.straight(160)
+    # finished sweeping
+    # now doing map reveal
     r.robot.turn(-35)
     r.robot.straight(50)
     r.robot.straight(57)
+    # lifting the soil
     r.ram.run_time(1000,500)
     r.robot.straight(-150)
     r.robot.turn(42)
@@ -33,7 +37,7 @@ def mission_seven(r):
     r.robot.turn(20)
     r.robot.straight(-70)
     wait(500)
-    #r.lam.run_time(500,500)
+   # now going to pick up brash
     r.lam.run_time(-400,1000)
     r.lam.run_time(400,700)
     r.robot.straight(-400)
