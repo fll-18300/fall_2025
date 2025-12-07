@@ -20,15 +20,16 @@ from pybricks.tools import *
 def mission_nine(r):
      print("Running Mission 9")
      # Katherine and Wesle's Minecart and Statue Mission
-     # Put bar down, incase Wesley doesn't set it up right.      
-     r.lam.run_time(-5,500, wait=False)
-     r.ram.run_time(5,500)
+     # Put bar down, incase we do not set it up right.      
+     r.robot.settings(300,300, 200, 200)
+     r.lam.run_time(10,500, wait=False)
+     r.ram.run_time(-10,500)
      # Drive towards the statue
-     r.robot.straight(375)
+     r.robot.straight(360)
      r.robot.arc(320,90)
      r.robot.straight(180)
      # Turn towards the Minecart and backup into the statue
-     r.robot.turn(-85)
+     r.robot.turn(-95)
      r.lam.run_time(-20,500, wait=False)
      r.ram.run_time(20,500)
      r.robot.straight(-140)
@@ -42,12 +43,15 @@ def mission_nine(r):
      r.robot.straight(130)
      wait(100)
      # Back away from the Minecart
-     r.robot.straight(-35)
+     r.robot.straight(-45)
      # Lift bar to send the Cart to the other side, while driving foward
-     r.lam.run_angle(-100,100, wait=False)
-     r.ram.run_angle(100,100, wait=False)
+     r.lam.run_angle(-100,70, wait=False)
+     r.ram.run_angle(100,70, wait=False)
      wait(500)
-     r.robot.straight(70)
+     r.robot.straight(90)
+     r.lam.run_angle(-50,30, wait=False)
+     r.ram.run_angle(50,30, wait=False)
+     r.robot.straight(40)
 
 ################################
 # KEEP THIS AT THE END OF THE FILE

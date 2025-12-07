@@ -21,7 +21,7 @@ def mission_two(r):
     print("Running Mission 2")
     # Your code goes here...
     #moves up to da hammer mission
-    r.robot.straight (425)
+    r.robot.straight (427)
     #hammer mission (4 times)
     #(1)
     r.ram.run_time(400,1000)
